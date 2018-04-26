@@ -56,16 +56,28 @@ automatic_scaling:
   max_pending_latency: automatic
 
 skip_files:
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.yml
 - ^(.*/)?\.zip$
 - ^(.*/)?\.bat$
 - ^(.*/)?\.sh$
 - ^(.*/)?\.md$
 - ^(.*/)?\.log$
 - ^(.*/)?\.xml$
+- ^\.git/.*
+- \.eslintrc.json
+- \.gitignore
+- \.sass-lint.yml
+- \.htmlhintrc
+- \package-lock.json
+- \package.json
+- \webpack.config.es.js
+- \webpack.config.js
+- \server.js
 - \composer.json
 - \composer.lock
 - \docker-appengine/
 - \wp-content/
 - \vendor/
-- \node_modules/
+- ^node_modules/(.*/)?
 - \result/

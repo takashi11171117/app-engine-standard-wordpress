@@ -5,3 +5,5 @@ result/*
 !.gitkeep
 wp-content/debug.log
 wordpress/
+wp-config.php
+wp-content/

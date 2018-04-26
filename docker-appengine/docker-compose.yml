@@ -15,8 +15,6 @@ services:
       - '30010:80'
     volumes:
       - ../:/var/www/html/
-      - ../wp-content:/var/www/html/wordpress/wp-content
-      - ./scripts/:/init-scripts/
     depends_on:
       - mysql
 volumes:
