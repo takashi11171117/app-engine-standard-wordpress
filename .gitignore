@@ -6,4 +6,4 @@ result/*
 wp-content/debug.log
 wordpress/
 wp-config.php
-wp-content/
+wp-content
