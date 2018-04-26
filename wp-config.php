@@ -1,1 +1,0 @@
-/Users/saito/server/app-engine-standard-wordpress/wordpress/wp-config.php
