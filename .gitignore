@@ -7,3 +7,4 @@ wp-content/debug.log
 wordpress/
 wp-config.php
 wp-content
+docker-appengine/mysql/sql/*.sql

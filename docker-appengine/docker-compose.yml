@@ -9,6 +9,7 @@ services:
       - '30011:3306'
     volumes:
       - db:/var/lib/mysql
+      - ./mysql/sql:/tmp/sql
   php:
     build: ./php
     ports:
