@@ -4,55 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "655156346713c29e6b85365a83d0268b",
+    "content-hash": "6d134d1423f20f286c8d9db50ee1f824",
     "packages": [
-        {
-            "name": "atomita/wp-environment-config",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/atomita/wordpress-environment-config.git",
-                "reference": "3668d32666d697229ddd3d9903bd9c72c8cd2789"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/atomita/wordpress-environment-config/zipball/3668d32666d697229ddd3d9903bd9c72c8cd2789",
-                "reference": "3668d32666d697229ddd3d9903bd9c72c8cd2789",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.*"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "\\Atomita\\Composer\\Plugin\\Wordpress\\EnvironmentConfig"
-            },
-            "autoload": {
-                "psr-0": {
-                    "Atomita": [
-                        "src/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPLv3"
-            ],
-            "authors": [
-                {
-                    "name": "atomita"
-                }
-            ],
-            "keywords": [
-                "environment",
-                "plugin",
-                "wordpress"
-            ],
-            "time": "2014-03-25T10:55:53+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.5.0",
@@ -1503,9 +1456,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "atomita/wp-environment-config": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -23,7 +23,6 @@
     "require": {
         "php": ">=5.3.0",
         "wordpress/wordpress": "*",
-        "atomita/wp-environment-config": "dev-master",
         "wpackagist-plugin/advanced-custom-fields": "*",
         "wpackagist-plugin/all-in-one-seo-pack": "*",
         "wpackagist-plugin/batcache": "*",
